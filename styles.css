@@ -1,0 +1,44 @@
+html{
+    background-image: radial-gradient(#defdee,#a8fbd2,#6ff8b5,#48f7a1);
+}
+
+#head{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+#next{
+    text-align: center;
+}
+
+#by{
+    text-align: right;
+    font-size: large;
+    margin-right:400px;
+    font-family: 'Dancing Script', cursive;
+}
+
+a{
+    text-align: center;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.container{
+    display:grid;
+    margin: 100px;
+    text-align: center;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+
+}
+.reason{
+    display:inline;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    background-color:#e3a21c;
+}
